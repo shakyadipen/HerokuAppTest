@@ -1,0 +1,671 @@
+DEBUG main org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to shakyadipen.atlassian.net:443
+DEBUG main org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+DEBUG main org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG main org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+DEBUG main org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+DEBUG main org.apache.http.impl.conn.DefaultClientConnection - Sending request: GET /rest/api/latest/search?jql=summary+%7E+%22logoutTest+Failed+in+Automation+Testing%22 HTTP/1.1
+DEBUG main org.apache.http.wire -  >> "GET /rest/api/latest/search?jql=summary+%7E+%22logoutTest+Failed+in+Automation+Testing%22 HTTP/1.1[\r][\n]"
+DEBUG main org.apache.http.wire -  >> "Accept: application/json[\r][\n]"
+DEBUG main org.apache.http.wire -  >> "Authorization: Basic c2hha3lhZGlwZW5AZ21haWwuY29tOkFUQVRUM3hGZkdGMGZRZkxac0FfTGpqYjZ3eTVrVzJfQkdzbTZGZ0p1Mi1pZnVnWGdTdkdVU3FZcW9Gd0R6VllWaXFUM3paS2thYXNOdm5TS2trQlZsUjJReXlqcnA0RHRYM29US1VCeVZLejNxWE9NVWl1RUdmODVjbmRWdHpWNFJoaDAxLXp6M0dBU1Q0YjU4WmpKeGJlV3VlNEdxV3Nja1Fzd2c5LU5SM25QM2I3NmNTZTl6ST1BMjgzRkNDRA==[\r][\n]"
+DEBUG main org.apache.http.wire -  >> "Host: shakyadipen.atlassian.net[\r][\n]"
+DEBUG main org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+DEBUG main org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/18.0.1.1)[\r][\n]"
+DEBUG main org.apache.http.wire -  >> "[\r][\n]"
+DEBUG main org.apache.http.headers - >> GET /rest/api/latest/search?jql=summary+%7E+%22logoutTest+Failed+in+Automation+Testing%22 HTTP/1.1
+DEBUG main org.apache.http.headers - >> Accept: application/json
+DEBUG main org.apache.http.headers - >> Authorization: Basic c2hha3lhZGlwZW5AZ21haWwuY29tOkFUQVRUM3hGZkdGMGZRZkxac0FfTGpqYjZ3eTVrVzJfQkdzbTZGZ0p1Mi1pZnVnWGdTdkdVU3FZcW9Gd0R6VllWaXFUM3paS2thYXNOdm5TS2trQlZsUjJReXlqcnA0RHRYM29US1VCeVZLejNxWE9NVWl1RUdmODVjbmRWdHpWNFJoaDAxLXp6M0dBU1Q0YjU4WmpKeGJlV3VlNEdxV3Nja1Fzd2c5LU5SM25QM2I3NmNTZTl6ST1BMjgzRkNDRA==
+DEBUG main org.apache.http.headers - >> Host: shakyadipen.atlassian.net
+DEBUG main org.apache.http.headers - >> Connection: Keep-Alive
+DEBUG main org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.2 (Java/18.0.1.1)
+DEBUG main org.apache.http.wire -  << "HTTP/1.1 200 OK[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Date: Mon, 26 Feb 2024 08:48:57 GMT[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Server: AtlassianEdge[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Timing-Allow-Origin: *[\r][\n]"
+DEBUG main org.apache.http.wire -  << "X-Arequestid: ff3671617bf851f01ac168f12eab274d[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Set-Cookie: atlassian.xsrf.token=6ee7f9c6d63187df30a1dbd12942596fce4dff80_lin; Path=/; SameSite=None; Secure[\r][\n]"
+DEBUG main org.apache.http.wire -  << "X-Aaccountid: 70121%3Afa834439-1937-41ad-b541-b58722cd6d7d[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Cache-Control: no-cache, no-store, no-transform[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Vary: Accept-Encoding[\r][\n]"
+DEBUG main org.apache.http.wire -  << "X-Content-Type-Options: nosniff[\r][\n]"
+DEBUG main org.apache.http.wire -  << "X-Xss-Protection: 1; mode=block[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Atl-Traceid: d35774f075464d0d86199bf9b2a899a0[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Strict-Transport-Security: max-age=63072000; includeSubDomains; preload[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Transfer-Encoding: chunked[\r][\n]"
+DEBUG main org.apache.http.wire -  << "[\r][\n]"
+DEBUG main org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+DEBUG main org.apache.http.headers - << HTTP/1.1 200 OK
+DEBUG main org.apache.http.headers - << Date: Mon, 26 Feb 2024 08:48:57 GMT
+DEBUG main org.apache.http.headers - << Content-Type: application/json;charset=UTF-8
+DEBUG main org.apache.http.headers - << Server: AtlassianEdge
+DEBUG main org.apache.http.headers - << Timing-Allow-Origin: *
+DEBUG main org.apache.http.headers - << X-Arequestid: ff3671617bf851f01ac168f12eab274d
+DEBUG main org.apache.http.headers - << Set-Cookie: atlassian.xsrf.token=6ee7f9c6d63187df30a1dbd12942596fce4dff80_lin; Path=/; SameSite=None; Secure
+DEBUG main org.apache.http.headers - << X-Aaccountid: 70121%3Afa834439-1937-41ad-b541-b58722cd6d7d
+DEBUG main org.apache.http.headers - << Cache-Control: no-cache, no-store, no-transform
+DEBUG main org.apache.http.headers - << Vary: Accept-Encoding
+DEBUG main org.apache.http.headers - << X-Content-Type-Options: nosniff
+DEBUG main org.apache.http.headers - << X-Xss-Protection: 1; mode=block
+DEBUG main org.apache.http.headers - << Atl-Traceid: d35774f075464d0d86199bf9b2a899a0
+DEBUG main org.apache.http.headers - << Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+DEBUG main org.apache.http.headers - << Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+DEBUG main org.apache.http.headers - << Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+DEBUG main org.apache.http.headers - << Transfer-Encoding: chunked
+DEBUG main org.apache.http.client.protocol.ResponseProcessCookies - Cookie accepted [atlassian.xsrf.token="6ee7f9c6d63187df30a1dbd12942596fce4dff80_lin", version:0, domain:shakyadipen.atlassian.net, path:/, expiry:null]
+DEBUG main org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+DEBUG main org.apache.http.wire -  << "33[\r][\n]"
+DEBUG main org.apache.http.wire -  << "{"startAt":0,"maxResults":50,"total":0,"issues":[]}"
+DEBUG main org.apache.http.wire -  << "[\r][\n]"
+DEBUG main org.apache.http.wire -  << "0[\r][\n]"
+DEBUG main org.apache.http.wire -  << "[\r][\n]"
+DEBUG main org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@4b1c0397
+DEBUG main org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+DEBUG main org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {s}->https://shakyadipen.atlassian.net:443
+DEBUG main org.apache.http.impl.client.DefaultHttpClient - Stale connection check
+DEBUG main org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+DEBUG main org.apache.http.client.protocol.RequestAddCookies - Cookie [version: 0][name: atlassian.xsrf.token][value: 6ee7f9c6d63187df30a1dbd12942596fce4dff80_lin][domain: shakyadipen.atlassian.net][path: /][expiry: null] match [(secure)shakyadipen.atlassian.net:443/rest/api/latest/issue/createmeta]
+DEBUG main org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG main org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+DEBUG main org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+DEBUG main org.apache.http.impl.conn.DefaultClientConnection - Sending request: GET /rest/api/latest/issue/createmeta?expand=projects.issuetypes.fields&issuetypeNames=Bug&projectKeys=EC HTTP/1.1
+DEBUG main org.apache.http.wire -  >> "GET /rest/api/latest/issue/createmeta?expand=projects.issuetypes.fields&issuetypeNames=Bug&projectKeys=EC HTTP/1.1[\r][\n]"
+DEBUG main org.apache.http.wire -  >> "Accept: application/json[\r][\n]"
+DEBUG main org.apache.http.wire -  >> "Authorization: Basic c2hha3lhZGlwZW5AZ21haWwuY29tOkFUQVRUM3hGZkdGMGZRZkxac0FfTGpqYjZ3eTVrVzJfQkdzbTZGZ0p1Mi1pZnVnWGdTdkdVU3FZcW9Gd0R6VllWaXFUM3paS2thYXNOdm5TS2trQlZsUjJReXlqcnA0RHRYM29US1VCeVZLejNxWE9NVWl1RUdmODVjbmRWdHpWNFJoaDAxLXp6M0dBU1Q0YjU4WmpKeGJlV3VlNEdxV3Nja1Fzd2c5LU5SM25QM2I3NmNTZTl6ST1BMjgzRkNDRA==[\r][\n]"
+DEBUG main org.apache.http.wire -  >> "Host: shakyadipen.atlassian.net[\r][\n]"
+DEBUG main org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+DEBUG main org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/18.0.1.1)[\r][\n]"
+DEBUG main org.apache.http.wire -  >> "Cookie: atlassian.xsrf.token=6ee7f9c6d63187df30a1dbd12942596fce4dff80_lin[\r][\n]"
+DEBUG main org.apache.http.wire -  >> "[\r][\n]"
+DEBUG main org.apache.http.headers - >> GET /rest/api/latest/issue/createmeta?expand=projects.issuetypes.fields&issuetypeNames=Bug&projectKeys=EC HTTP/1.1
+DEBUG main org.apache.http.headers - >> Accept: application/json
+DEBUG main org.apache.http.headers - >> Authorization: Basic c2hha3lhZGlwZW5AZ21haWwuY29tOkFUQVRUM3hGZkdGMGZRZkxac0FfTGpqYjZ3eTVrVzJfQkdzbTZGZ0p1Mi1pZnVnWGdTdkdVU3FZcW9Gd0R6VllWaXFUM3paS2thYXNOdm5TS2trQlZsUjJReXlqcnA0RHRYM29US1VCeVZLejNxWE9NVWl1RUdmODVjbmRWdHpWNFJoaDAxLXp6M0dBU1Q0YjU4WmpKeGJlV3VlNEdxV3Nja1Fzd2c5LU5SM25QM2I3NmNTZTl6ST1BMjgzRkNDRA==
+DEBUG main org.apache.http.headers - >> Host: shakyadipen.atlassian.net
+DEBUG main org.apache.http.headers - >> Connection: Keep-Alive
+DEBUG main org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.2 (Java/18.0.1.1)
+DEBUG main org.apache.http.headers - >> Cookie: atlassian.xsrf.token=6ee7f9c6d63187df30a1dbd12942596fce4dff80_lin
+DEBUG main org.apache.http.wire -  << "HTTP/1.1 200 OK[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Date: Mon, 26 Feb 2024 08:48:57 GMT[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Server: AtlassianEdge[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Timing-Allow-Origin: *[\r][\n]"
+DEBUG main org.apache.http.wire -  << "X-Arequestid: e187f5497621e6e6b8c976369f0caec1[\r][\n]"
+DEBUG main org.apache.http.wire -  << "X-Aaccountid: 70121%3Afa834439-1937-41ad-b541-b58722cd6d7d[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Cache-Control: no-cache, no-store, no-transform[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Vary: Accept-Encoding[\r][\n]"
+DEBUG main org.apache.http.wire -  << "X-Content-Type-Options: nosniff[\r][\n]"
+DEBUG main org.apache.http.wire -  << "X-Xss-Protection: 1; mode=block[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Atl-Traceid: 4147809d07324338b3445b8e00b5621e[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Strict-Transport-Security: max-age=63072000; includeSubDomains; preload[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Transfer-Encoding: chunked[\r][\n]"
+DEBUG main org.apache.http.wire -  << "[\r][\n]"
+DEBUG main org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+DEBUG main org.apache.http.headers - << HTTP/1.1 200 OK
+DEBUG main org.apache.http.headers - << Date: Mon, 26 Feb 2024 08:48:57 GMT
+DEBUG main org.apache.http.headers - << Content-Type: application/json;charset=UTF-8
+DEBUG main org.apache.http.headers - << Server: AtlassianEdge
+DEBUG main org.apache.http.headers - << Timing-Allow-Origin: *
+DEBUG main org.apache.http.headers - << X-Arequestid: e187f5497621e6e6b8c976369f0caec1
+DEBUG main org.apache.http.headers - << X-Aaccountid: 70121%3Afa834439-1937-41ad-b541-b58722cd6d7d
+DEBUG main org.apache.http.headers - << Cache-Control: no-cache, no-store, no-transform
+DEBUG main org.apache.http.headers - << Vary: Accept-Encoding
+DEBUG main org.apache.http.headers - << X-Content-Type-Options: nosniff
+DEBUG main org.apache.http.headers - << X-Xss-Protection: 1; mode=block
+DEBUG main org.apache.http.headers - << Atl-Traceid: 4147809d07324338b3445b8e00b5621e
+DEBUG main org.apache.http.headers - << Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+DEBUG main org.apache.http.headers - << Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+DEBUG main org.apache.http.headers - << Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+DEBUG main org.apache.http.headers - << Transfer-Encoding: chunked
+DEBUG main org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+DEBUG main org.apache.http.wire -  << "1686[\r][\n]"
+DEBUG main org.apache.http.wire -  << "{"expand":"projects","projects":[{"expand":"issuetypes","self":"https://shakyadipen.atlassian.net/rest/api/2/project/10001","id":"10001","key":"EC","name":"Ecommerce","avatarUrls":{"48x48":"https://shakyadipen.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10416","24x24":"https://shakyadipen.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10416?size=small","16x16":"https://shakyadipen.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10416?size=xsmall","32x32":"https://shakyadipen.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10416?size=medium"},"issuetypes":[{"self":"https://shakyadipen.atlassian.net/rest/api/2/issuetype/10007","id":"10007","description":"Bugs track problems or errors.","iconUrl":"https://shakyadipen.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10303?size=medium","name":"Bug","untranslatedName":"Bug","subtask":false,"scope":{"type":"PROJECT","project":{"id":"10001"}},"expand":"fields","fields":{"summary":{"required":true,"schema":{"type":"string","system":"summary"},"name":"Summary","key":"summary","hasDefaultValue":false,"operations":["set"]},"issuetype":{"required":true,"schema":{"type":"issuetype","system":"issuetype"},"name":"Issue Type","key":"issuetype","hasDefaultValue":false,"operations":[],"allowedValues":[{"self":"https://shakyadipen.atlassian.net/rest/api/2/issuetype/10007","id":"10007","description":"Bugs track problems or errors.","iconUrl":"https://shakyadipen.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10303?size=medium","name":"Bug","subtask":false,"avatarId":10303,"entityId":"17d07261-c53e-4e13-99de-6bebabbfbe1b","hierarchyLevel":0}]},"parent":{"required":false,"schema":{"type":"issuelink","system":"parent"},"name":"Parent","key":"parent","hasDefaultValue":false,"operations":["set"]},"customfield_10030":{"required":false,"schema":{"type":"any","custom":"com.atlassian.jira.plugins.jira-development-integration-plugin:designcf","customId":10030},"name":"Design","key":"customfield_10030","hasDefaultValue":false,"operations":["set"]},"description":{"required":false,"schema":{"type":"string","system":"description"},"name":"Description","key":"description","hasDefaultValue":false,"operations":["set"]},"customfield_10020":{"required":false,"schema":{"type":"array","items":"json","custom":"com.pyxis.greenhopper.jira:gh-sprint","customId":10020},"name":"Sprint","key":"customfield_10020","hasDefaultValue":false,"operations":["set"]},"project":{"required":true,"schema":{"type":"project","system":"project"},"name":"Project","key":"project","hasDefaultValue":false,"operations":["set"],"allowedValues":[{"self":"https://shakyadipen.atlassian.net/rest/api/2/project/10001","id":"10001","key":"EC","name":"Ecommerce","projectTypeKey":"software","simplified":true,"avatarUrls":{"48x48":"https://shakyadipen.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10416","24x24":"https://shakyadipen.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10416?size=small","16x16":"https://shakyadipen.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10416?size=xsmall","32x32":"https://shakyadipen.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10416?size=medium"}}]},"customfield_10021":{"required":false,"schema":{"type":"array","items":"option","custom":"com.atlassian.jira.plugin.system.customfieldtypes:multicheckboxes","customId":10021},"name":"Flagged","key":"customfield_10021","hasDefaultValue":false,"operations":["add","set","remove"],"allowedValues":[{"self":"https://shakyadipen.atlassian.net/rest/api/2/customFieldOption/10019","value":"Impediment","id":"10019"}]},"reporter":{"required":true,"schema":{"type":"user","system":"reporter"},"name":"Reporter","key":"reporter","autoCompleteUrl":"https://shakyadipen.atlassian.net/rest/api/2/user/search?query=","hasDefaultValue":true,"operations":["set"]},"customfield_10000":{"required":false,"schema":{"type":"any","custom":"com.atlassian.jira.plugins.jira-development-integration-plugin:devsummarycf","customId":10000},"name":"Development","key":"customfield_10000","hasDefaultValue":false,"operations":["set"]},"labels":{"required":false,"schema":{"type":"array","items":"string","system":"labels"},"name":"Labels","key":"labels","autoCompleteUrl":"https://shakyadipen.atlassian.net/rest/api/1.0/labels/suggest?query=","hasDefaultValue":false,"operations":["add","set","remove"]},"customfield_10016":{"required":false,"schema":{"type":"number","custom":"com.pyxis.greenhopper.jira:jsw-story-points","customId":10016},"name":"Story point estimate","key":"customfield_10016","hasDefaultValue":false,"operations":["set"]},"customfield_10019":{"required":false,"schema":{"type":"any","custom":"com.pyxis.greenhopper.jira:gh-lexo-rank","customId":10019},"name":"Rank","key":"customfield_10019","hasDefaultValue":false,"operations":["set"]},"attachment":{"required":false,"schema":{"type":"array","items":"attachment","system":"attachment"},"name":"Attachment","key":"attachment","hasDefaultValue":false,"operations":["set","copy"]},"issuelinks":{"required":false,"schema":{"type":"array","items":"issuelinks","system":"issuelinks"},"name":"Linked Issues","key":"issuelinks","autoCompleteUrl":"https://shakyadipen.atlassian.net/rest/api/2/issue/picker?currentProjectId=&showSubTaskParent=true&showSubTasks=true&currentIssueKey=null&query=","hasDefaultValue":false,"operations":["add","copy"]},"assignee":{"required":false,"schema":{"type":"user","system":"assignee"},"name":"Assignee","key":"assignee","autoCompleteUrl":"https://shakyadipen.atlassian.net/rest/api/2/user/assignable/search?project=EC&query=","hasDefaultValue":false,"operations":["set"]}}}]}]}"
+DEBUG main org.apache.http.wire -  << "[\r][\n]"
+DEBUG main org.apache.http.wire -  << "0[\r][\n]"
+DEBUG main org.apache.http.wire -  << "[\r][\n]"
+DEBUG main org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@383790cf
+DEBUG main org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+DEBUG main org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {s}->https://shakyadipen.atlassian.net:443
+DEBUG main org.apache.http.impl.client.DefaultHttpClient - Stale connection check
+DEBUG main org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+DEBUG main org.apache.http.client.protocol.RequestAddCookies - Cookie [version: 0][name: atlassian.xsrf.token][value: 6ee7f9c6d63187df30a1dbd12942596fce4dff80_lin][domain: shakyadipen.atlassian.net][path: /][expiry: null] match [(secure)shakyadipen.atlassian.net:443/rest/api/latest/issue/]
+DEBUG main org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG main org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+DEBUG main org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+DEBUG main org.apache.http.impl.conn.DefaultClientConnection - Sending request: POST /rest/api/latest/issue/ HTTP/1.1
+DEBUG main org.apache.http.wire -  >> "POST /rest/api/latest/issue/ HTTP/1.1[\r][\n]"
+DEBUG main org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
+DEBUG main org.apache.http.wire -  >> "Accept: application/json[\r][\n]"
+DEBUG main org.apache.http.wire -  >> "Authorization: Basic c2hha3lhZGlwZW5AZ21haWwuY29tOkFUQVRUM3hGZkdGMGZRZkxac0FfTGpqYjZ3eTVrVzJfQkdzbTZGZ0p1Mi1pZnVnWGdTdkdVU3FZcW9Gd0R6VllWaXFUM3paS2thYXNOdm5TS2trQlZsUjJReXlqcnA0RHRYM29US1VCeVZLejNxWE9NVWl1RUdmODVjbmRWdHpWNFJoaDAxLXp6M0dBU1Q0YjU4WmpKeGJlV3VlNEdxV3Nja1Fzd2c5LU5SM25QM2I3NmNTZTl6ST1BMjgzRkNDRA==[\r][\n]"
+DEBUG main org.apache.http.wire -  >> "Content-Length: 1605[\r][\n]"
+DEBUG main org.apache.http.wire -  >> "Host: shakyadipen.atlassian.net[\r][\n]"
+DEBUG main org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+DEBUG main org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/18.0.1.1)[\r][\n]"
+DEBUG main org.apache.http.wire -  >> "Cookie: atlassian.xsrf.token=6ee7f9c6d63187df30a1dbd12942596fce4dff80_lin[\r][\n]"
+DEBUG main org.apache.http.wire -  >> "[\r][\n]"
+DEBUG main org.apache.http.headers - >> POST /rest/api/latest/issue/ HTTP/1.1
+DEBUG main org.apache.http.headers - >> Content-Type: application/json
+DEBUG main org.apache.http.headers - >> Accept: application/json
+DEBUG main org.apache.http.headers - >> Authorization: Basic c2hha3lhZGlwZW5AZ21haWwuY29tOkFUQVRUM3hGZkdGMGZRZkxac0FfTGpqYjZ3eTVrVzJfQkdzbTZGZ0p1Mi1pZnVnWGdTdkdVU3FZcW9Gd0R6VllWaXFUM3paS2thYXNOdm5TS2trQlZsUjJReXlqcnA0RHRYM29US1VCeVZLejNxWE9NVWl1RUdmODVjbmRWdHpWNFJoaDAxLXp6M0dBU1Q0YjU4WmpKeGJlV3VlNEdxV3Nja1Fzd2c5LU5SM25QM2I3NmNTZTl6ST1BMjgzRkNDRA==
+DEBUG main org.apache.http.headers - >> Content-Length: 1605
+DEBUG main org.apache.http.headers - >> Host: shakyadipen.atlassian.net
+DEBUG main org.apache.http.headers - >> Connection: Keep-Alive
+DEBUG main org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.2 (Java/18.0.1.1)
+DEBUG main org.apache.http.headers - >> Cookie: atlassian.xsrf.token=6ee7f9c6d63187df30a1dbd12942596fce4dff80_lin
+DEBUG main org.apache.http.wire -  >> "{"fields":{"summary":"logoutTest Failed in Automation Testing","issuetype":{"name":"Bug"},"project":{"key":"EC"},"description":"Failure Reason from Automation Testing\n\nno such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"a[href=\"/logout\"]\"}\n  (Session info: chrome=122.0.6261.69)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.17.0', revision: 'e52b1be057*'\nSystem info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [0e609288053061e92f076d7e6c2f7638, findElement {value=a[href=\"/logout\"], using=xpath}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.69, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: D:\\Temp Data\\scoped_dir2177...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50874}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50874/devtoo..., se:cdpVersion: 122.0.6261.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 0e609288053061e92f076d7e6c2f7638\n"}}"
+DEBUG main org.apache.http.wire -  << "HTTP/1.1 201 Created[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Date: Mon, 26 Feb 2024 08:48:59 GMT[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Server: AtlassianEdge[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Timing-Allow-Origin: *[\r][\n]"
+DEBUG main org.apache.http.wire -  << "X-Arequestid: dec76207142eb2406ee45620bd28793c[\r][\n]"
+DEBUG main org.apache.http.wire -  << "X-Aaccountid: 70121%3Afa834439-1937-41ad-b541-b58722cd6d7d[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Cache-Control: no-cache, no-store, no-transform[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Vary: Accept-Encoding[\r][\n]"
+DEBUG main org.apache.http.wire -  << "X-Content-Type-Options: nosniff[\r][\n]"
+DEBUG main org.apache.http.wire -  << "X-Xss-Protection: 1; mode=block[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Atl-Traceid: 8d3a70c8a40c4d78a15ee33efb0f5c13[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Strict-Transport-Security: max-age=63072000; includeSubDomains; preload[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Transfer-Encoding: chunked[\r][\n]"
+DEBUG main org.apache.http.wire -  << "[\r][\n]"
+DEBUG main org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 201 Created
+DEBUG main org.apache.http.headers - << HTTP/1.1 201 Created
+DEBUG main org.apache.http.headers - << Date: Mon, 26 Feb 2024 08:48:59 GMT
+DEBUG main org.apache.http.headers - << Content-Type: application/json;charset=UTF-8
+DEBUG main org.apache.http.headers - << Server: AtlassianEdge
+DEBUG main org.apache.http.headers - << Timing-Allow-Origin: *
+DEBUG main org.apache.http.headers - << X-Arequestid: dec76207142eb2406ee45620bd28793c
+DEBUG main org.apache.http.headers - << X-Aaccountid: 70121%3Afa834439-1937-41ad-b541-b58722cd6d7d
+DEBUG main org.apache.http.headers - << Cache-Control: no-cache, no-store, no-transform
+DEBUG main org.apache.http.headers - << Vary: Accept-Encoding
+DEBUG main org.apache.http.headers - << X-Content-Type-Options: nosniff
+DEBUG main org.apache.http.headers - << X-Xss-Protection: 1; mode=block
+DEBUG main org.apache.http.headers - << Atl-Traceid: 8d3a70c8a40c4d78a15ee33efb0f5c13
+DEBUG main org.apache.http.headers - << Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+DEBUG main org.apache.http.headers - << Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+DEBUG main org.apache.http.headers - << Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+DEBUG main org.apache.http.headers - << Transfer-Encoding: chunked
+DEBUG main org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+DEBUG main org.apache.http.wire -  << "63[\r][\n]"
+DEBUG main org.apache.http.wire -  << "{"id":"10015","key":"EC-16","self":"https://shakyadipen.atlassian.net/rest/api/latest/issue/10015"}"
+DEBUG main org.apache.http.wire -  << "[\r][\n]"
+DEBUG main org.apache.http.wire -  << "0[\r][\n]"
+DEBUG main org.apache.http.wire -  << "[\r][\n]"
+DEBUG main org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@773c0293
+DEBUG main org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+DEBUG main org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {s}->https://shakyadipen.atlassian.net:443
+DEBUG main org.apache.http.impl.client.DefaultHttpClient - Stale connection check
+DEBUG main org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+DEBUG main org.apache.http.client.protocol.RequestAddCookies - Cookie [version: 0][name: atlassian.xsrf.token][value: 6ee7f9c6d63187df30a1dbd12942596fce4dff80_lin][domain: shakyadipen.atlassian.net][path: /][expiry: null] match [(secure)shakyadipen.atlassian.net:443/rest/api/latest/issue/EC-16]
+DEBUG main org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG main org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+DEBUG main org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+DEBUG main org.apache.http.impl.conn.DefaultClientConnection - Sending request: GET /rest/api/latest/issue/EC-16 HTTP/1.1
+DEBUG main org.apache.http.wire -  >> "GET /rest/api/latest/issue/EC-16 HTTP/1.1[\r][\n]"
+DEBUG main org.apache.http.wire -  >> "Accept: application/json[\r][\n]"
+DEBUG main org.apache.http.wire -  >> "Authorization: Basic c2hha3lhZGlwZW5AZ21haWwuY29tOkFUQVRUM3hGZkdGMGZRZkxac0FfTGpqYjZ3eTVrVzJfQkdzbTZGZ0p1Mi1pZnVnWGdTdkdVU3FZcW9Gd0R6VllWaXFUM3paS2thYXNOdm5TS2trQlZsUjJReXlqcnA0RHRYM29US1VCeVZLejNxWE9NVWl1RUdmODVjbmRWdHpWNFJoaDAxLXp6M0dBU1Q0YjU4WmpKeGJlV3VlNEdxV3Nja1Fzd2c5LU5SM25QM2I3NmNTZTl6ST1BMjgzRkNDRA==[\r][\n]"
+DEBUG main org.apache.http.wire -  >> "Host: shakyadipen.atlassian.net[\r][\n]"
+DEBUG main org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+DEBUG main org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/18.0.1.1)[\r][\n]"
+DEBUG main org.apache.http.wire -  >> "Cookie: atlassian.xsrf.token=6ee7f9c6d63187df30a1dbd12942596fce4dff80_lin[\r][\n]"
+DEBUG main org.apache.http.wire -  >> "[\r][\n]"
+DEBUG main org.apache.http.headers - >> GET /rest/api/latest/issue/EC-16 HTTP/1.1
+DEBUG main org.apache.http.headers - >> Accept: application/json
+DEBUG main org.apache.http.headers - >> Authorization: Basic c2hha3lhZGlwZW5AZ21haWwuY29tOkFUQVRUM3hGZkdGMGZRZkxac0FfTGpqYjZ3eTVrVzJfQkdzbTZGZ0p1Mi1pZnVnWGdTdkdVU3FZcW9Gd0R6VllWaXFUM3paS2thYXNOdm5TS2trQlZsUjJReXlqcnA0RHRYM29US1VCeVZLejNxWE9NVWl1RUdmODVjbmRWdHpWNFJoaDAxLXp6M0dBU1Q0YjU4WmpKeGJlV3VlNEdxV3Nja1Fzd2c5LU5SM25QM2I3NmNTZTl6ST1BMjgzRkNDRA==
+DEBUG main org.apache.http.headers - >> Host: shakyadipen.atlassian.net
+DEBUG main org.apache.http.headers - >> Connection: Keep-Alive
+DEBUG main org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.2 (Java/18.0.1.1)
+DEBUG main org.apache.http.headers - >> Cookie: atlassian.xsrf.token=6ee7f9c6d63187df30a1dbd12942596fce4dff80_lin
+DEBUG main org.apache.http.wire -  << "HTTP/1.1 200 OK[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Date: Mon, 26 Feb 2024 08:48:59 GMT[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Server: AtlassianEdge[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Timing-Allow-Origin: *[\r][\n]"
+DEBUG main org.apache.http.wire -  << "X-Arequestid: df57c41237057e5dbc6713aba2af3723[\r][\n]"
+DEBUG main org.apache.http.wire -  << "X-Aaccountid: 70121%3Afa834439-1937-41ad-b541-b58722cd6d7d[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Cache-Control: no-cache, no-store, no-transform[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Vary: Accept-Encoding[\r][\n]"
+DEBUG main org.apache.http.wire -  << "X-Content-Type-Options: nosniff[\r][\n]"
+DEBUG main org.apache.http.wire -  << "X-Xss-Protection: 1; mode=block[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Atl-Traceid: 9c54fdebc4a543c2beb445897fb0b6dd[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Strict-Transport-Security: max-age=63072000; includeSubDomains; preload[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Transfer-Encoding: chunked[\r][\n]"
+DEBUG main org.apache.http.wire -  << "[\r][\n]"
+DEBUG main org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+DEBUG main org.apache.http.headers - << HTTP/1.1 200 OK
+DEBUG main org.apache.http.headers - << Date: Mon, 26 Feb 2024 08:48:59 GMT
+DEBUG main org.apache.http.headers - << Content-Type: application/json;charset=UTF-8
+DEBUG main org.apache.http.headers - << Server: AtlassianEdge
+DEBUG main org.apache.http.headers - << Timing-Allow-Origin: *
+DEBUG main org.apache.http.headers - << X-Arequestid: df57c41237057e5dbc6713aba2af3723
+DEBUG main org.apache.http.headers - << X-Aaccountid: 70121%3Afa834439-1937-41ad-b541-b58722cd6d7d
+DEBUG main org.apache.http.headers - << Cache-Control: no-cache, no-store, no-transform
+DEBUG main org.apache.http.headers - << Vary: Accept-Encoding
+DEBUG main org.apache.http.headers - << X-Content-Type-Options: nosniff
+DEBUG main org.apache.http.headers - << X-Xss-Protection: 1; mode=block
+DEBUG main org.apache.http.headers - << Atl-Traceid: 9c54fdebc4a543c2beb445897fb0b6dd
+DEBUG main org.apache.http.headers - << Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+DEBUG main org.apache.http.headers - << Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+DEBUG main org.apache.http.headers - << Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+DEBUG main org.apache.http.headers - << Transfer-Encoding: chunked
+DEBUG main org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+DEBUG main org.apache.http.wire -  << "1c99[\r][\n]"
+DEBUG main org.apache.http.wire -  << "{"expand":"renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations,customfield_10032.properties,customfield_10010.requestTypePractice","id":"10015","self":"https://shakyadipen.atlassian.net/rest/api/latest/issue/10015","key":"EC-16","fields":{"statuscategorychangedate":"2024-02-26T14:33:59.175+0545","issuetype":{"self":"https://shakyadipen.atlassian.net/rest/api/2/issuetype/10007","id":"10007","description":"Bugs track problems or errors.","iconUrl":"https://shakyadipen.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10303?size=medium","name":"Bug","subtask":false,"avatarId":10303,"entityId":"17d07261-c53e-4e13-99de-6bebabbfbe1b","hierarchyLevel":0},"timespent":null,"project":{"self":"https://shakyadipen.atlassian.net/rest/api/2/project/10001","id":"10001","key":"EC","name":"Ecommerce","projectTypeKey":"software","simplified":true,"avatarUrls":{"48x48":"https://shakyadipen.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10416","24x24":"https://shakyadipen.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10416?size=small","16x16":"https://shakyadipen.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10416?size=xsmall","32x32":"https://shakyadipen.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10416?size=medium"}},"customfield_10032":null,"fixVersions":[],"aggregatetimespent":null,"resolution":null,"customfield_10027":null,"customfield_10028":null,"customfield_10029":null,"resolutiondate":null,"workratio":-1,"lastViewed":null,"watches":{"self":"https://shakyadipen.atlassian.net/rest/api/2/issue/EC-16/watchers","watchCount":1,"isWatching":true},"issuerestriction":{"issuerestrictions":{},"shouldDisplay":true},"created":"2024-02-26T14:33:58.692+0545","customfield_10020":null,"customfield_10021":null,"customfield_10022":null,"customfield_10023":null,"priority":{"self":"https://shakyadipen.atlassian.net/rest/api/2/priority/3","iconUrl":"https://shakyadipen.atlassian.net/images/icons/priorities/medium.svg","name":"Medium","id":"3"},"customfield_10024":null,"customfield_10025":null,"labels":[],"customfield_10026":null,"customfield_10016":null,"customfield_10017":null,"customfield_10018":{"hasEpicLinkFieldDependency":false,"showField":false,"nonEditableReason":{"reason":"PLUGIN_LICENSE_ERROR","message":"The Parent Link is only available to Jira Premium users."}},"customfield_10019":"0|i0003b:","timeestimate":null,"aggregatetimeoriginalestimate":null,"versions":[],"issuelinks":[],"assignee":null,"updated":"2024-02-26T14:33:58.843+0545","status":{"self":"https://shakyadipen.atlassian.net/rest/api/2/status/10003","description":"","iconUrl":"https://shakyadipen.atlassian.net/","name":"To Do","id":"10003","statusCategory":{"self":"https://shakyadipen.atlassian.net/rest/api/2/statuscategory/2","id":2,"key":"new","colorName":"blue-gray","name":"To Do"}},"components":[],"timeoriginalestimate":null,"description":"Failure Reason from Automation Testing\n\nno such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"a[href=\"/logout\"]\"}\n  (Session info: chrome=122.0.6261.69)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.17.0', revision: 'e52b1be057*'\nSystem info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [0e609288053061e92f076d7e6c2f7638, findElement {value=a[href=\"/logout\"], using=xpath}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.69, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: D:\\Temp Data\\scoped_dir2177...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50874}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50874/devtoo..., se:cdpVersion: 122.0.6261.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 0e609288053061e92f076d7e6c2f7638\n","customfield_10010":null,"customfield_10014":null,"timetracking":{},"customfield_10015":null,"customfield_10005":null,"customfield_10006":null,"customfield_10007":null,"security":null,"customfield_10008":null,"attachment":[],"customfield_10009":null,"aggregatetimeestimate":null,"summary":"logoutTest Failed in Automation Testing","creator":{"self":"https://shakyadipen.atlassian.net/rest/api/2/user?accountId=70121%3Afa834439-1937-41ad-b541-b58722cd6d7d","accountId":"70121:fa834439-1937-41ad-b541-b58722cd6d7d","emailAddress":"shakyadipen@gmail.com","avatarUrls":{"48x48":"https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/70121:fa834439-1937-41ad-b541-b58722cd6d7d/a48ff798-47fc-424b-ab30-ce07bc19078b/48","24x24":"https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/70121:fa834439-1937-41ad-b541-b58722cd6d7d/a48ff798-47fc-424b-ab30-ce07bc19078b/24","16x16":"https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/70121:fa834439-1937-41ad-b541-b58722cd6d7d/a48ff798-47fc-424b-ab30-ce07bc19078b/16","32x32":"https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/70121:fa834439-1937-41ad-b541-b58722cd6d7d/a48ff798-47fc-424b-ab30-ce07bc19078b/32"},"displayName":"fortunate_shakya","active":true,"timeZone":"Asia/Kathmandu","accountType":"atlassian"},"subtasks":[],"reporter":{"self":"https://shakyadipen.atlassian.net/rest/api/2/user?accountId=70121%3Afa834439-1937-41ad-b541-b58722cd6d7d","accountId":"70121:fa834439-1937-41ad-b541-b58722cd6d7d","emailAddress":"shakyadipen@gmail.com","avatarUrls":{"48x48":"https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/70121:fa834439-1937-41ad-b541-b58722cd6d7d/a48ff798-47fc-424b-ab30-ce07bc19078b/48","24x24":"https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/70121:fa834439-1937-41ad-b541-b58722cd6d7d/a48ff798-47fc-424b-ab30-ce07bc19078b/24","16x16":"https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/70121:fa834439-1937-41ad-b541-b58722cd6d7d/a48ff798-47fc-424b-ab30-ce07bc19078b/16","32x32":"https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/70121:fa834439-1937-41ad-b541-b58722cd6d7d/a48ff798-47fc-424b-ab30-ce07bc19078b/32"},"displayName":"fortunate_shakya","active":true,"timeZone":"Asia/Kathmandu","accountType":"atlassian"},"aggregateprogress":{"progress":0,"total":0},"customfield_10000":"{}","customfield_10001":null,"customfield_10002":null,"customfield_10003":null,"customfield_10004":null,"environment":null,"duedate":null,"progress":{"progress":0,"total":0},"comment":{"comments":[],"self":"https://shakyadipen.atlassian.net/rest/api/2/issue/10015/comment","maxResults":0,"total":0,"startAt":0},"votes":{"self":"https://shakyadipen.atlassian.net/rest/api/2/issue/EC-16/votes","votes":0,"hasVoted":false},"worklog":{"startAt":0,"maxResults":20,"total":0,"worklogs":[]}}}"
+DEBUG main org.apache.http.wire -  << "[\r][\n]"
+DEBUG main org.apache.http.wire -  << "0[\r][\n]"
+DEBUG main org.apache.http.wire -  << "[\r][\n]"
+DEBUG main org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@55b8dbda
+DEBUG main org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+INFO main HerokuAppTesting - Browser closed
+INFO main HerokuAppTesting - Browser Opened With link
+INFO main HerokuAppTesting - Alert Link CLicked
+INFO main HerokuAppTesting - Assertion to check the Alerttext
+INFO main HerokuAppTesting - Accept the alert window
+INFO main HerokuAppTesting - Browser closed
+DEBUG main freemarker.cache - Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG main freemarker.cache - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+DEBUG main freemarker.cache - TemplateLoader.findTemplateSource("index.ftl"): Found
+DEBUG main freemarker.cache - Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sunco/.m2/repository/com/aventstack/extentreports/3.1.2/extentreports-3.1.2.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
+DEBUG main freemarker.cache - Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG main freemarker.cache - TemplateLoader.findTemplateSource("head_en.ftl"): Not found
+DEBUG main freemarker.cache - TemplateLoader.findTemplateSource("head.ftl"): Found
+DEBUG main freemarker.cache - Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sunco/.m2/repository/com/aventstack/extentreports/3.1.2/extentreports-3.1.2.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
+DEBUG main freemarker.cache - Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG main freemarker.cache - TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
+DEBUG main freemarker.cache - TemplateLoader.findTemplateSource("nav.ftl"): Found
+DEBUG main freemarker.cache - Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sunco/.m2/repository/com/aventstack/extentreports/3.1.2/extentreports-3.1.2.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
+DEBUG main freemarker.cache - Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG main freemarker.cache - TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
+DEBUG main freemarker.cache - TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
+DEBUG main freemarker.cache - Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sunco/.m2/repository/com/aventstack/extentreports/3.1.2/extentreports-3.1.2.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
+DEBUG main freemarker.cache - Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG main freemarker.cache - TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
+DEBUG main freemarker.cache - TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
+DEBUG main freemarker.cache - Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sunco/.m2/repository/com/aventstack/extentreports/3.1.2/extentreports-3.1.2.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl"
+DEBUG main freemarker.cache - Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG main freemarker.cache - TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found
+DEBUG main freemarker.cache - TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found
+DEBUG main freemarker.cache - Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sunco/.m2/repository/com/aventstack/extentreports/3.1.2/extentreports-3.1.2.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl"
+DEBUG main freemarker.cache - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+DEBUG main freemarker.cache - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+DEBUG main freemarker.cache - Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG main freemarker.cache - TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
+DEBUG main freemarker.cache - TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
+DEBUG main freemarker.cache - Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sunco/.m2/repository/com/aventstack/extentreports/3.1.2/extentreports-3.1.2.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl"
+DEBUG main freemarker.cache - Couldn't find template in cache for "author-view/author-view.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG main freemarker.cache - TemplateLoader.findTemplateSource("author-view/author-view_en.ftl"): Not found
+DEBUG main freemarker.cache - TemplateLoader.findTemplateSource("author-view/author-view.ftl"): Found
+DEBUG main freemarker.cache - Loading template for "author-view/author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sunco/.m2/repository/com/aventstack/extentreports/3.1.2/extentreports-3.1.2.jar!/com/aventstack/extentreports/view/html-report/author-view/author-view.ftl"
+DEBUG main freemarker.cache - Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG main freemarker.cache - TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
+DEBUG main freemarker.cache - TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
+DEBUG main freemarker.cache - Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sunco/.m2/repository/com/aventstack/extentreports/3.1.2/extentreports-3.1.2.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl"
+DEBUG main freemarker.cache - Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG main freemarker.cache - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
+DEBUG main freemarker.cache - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
+DEBUG main freemarker.cache - Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sunco/.m2/repository/com/aventstack/extentreports/3.1.2/extentreports-3.1.2.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl"
+DEBUG main freemarker.cache - Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG main freemarker.cache - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
+DEBUG main freemarker.cache - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
+DEBUG main freemarker.cache - Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sunco/.m2/repository/com/aventstack/extentreports/3.1.2/extentreports-3.1.2.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"
+INFO main HerokuAppTesting - Browser Opened With link
+INFO main HerokuAppTesting - Authentication Form clicked
+INFO main HerokuAppTesting - Email Entered
+INFO main HerokuAppTesting - Password Entered
+INFO main HerokuAppTesting - Login button clicked
+INFO main HerokuAppTesting - Login done successfully
+INFO main HerokuAppTesting - Browser closed
+DEBUG main freemarker.cache - Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG main freemarker.cache - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+DEBUG main freemarker.cache - TemplateLoader.findTemplateSource("index.ftl"): Found
+DEBUG main freemarker.cache - Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sunco/.m2/repository/com/aventstack/extentreports/3.1.2/extentreports-3.1.2.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
+DEBUG main freemarker.cache - Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG main freemarker.cache - TemplateLoader.findTemplateSource("head_en.ftl"): Not found
+DEBUG main freemarker.cache - TemplateLoader.findTemplateSource("head.ftl"): Found
+DEBUG main freemarker.cache - Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sunco/.m2/repository/com/aventstack/extentreports/3.1.2/extentreports-3.1.2.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
+DEBUG main freemarker.cache - Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG main freemarker.cache - TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
+DEBUG main freemarker.cache - TemplateLoader.findTemplateSource("nav.ftl"): Found
+DEBUG main freemarker.cache - Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sunco/.m2/repository/com/aventstack/extentreports/3.1.2/extentreports-3.1.2.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
+DEBUG main freemarker.cache - Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG main freemarker.cache - TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
+DEBUG main freemarker.cache - TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
+DEBUG main freemarker.cache - Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sunco/.m2/repository/com/aventstack/extentreports/3.1.2/extentreports-3.1.2.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
+DEBUG main freemarker.cache - Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG main freemarker.cache - TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
+DEBUG main freemarker.cache - TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
+DEBUG main freemarker.cache - Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sunco/.m2/repository/com/aventstack/extentreports/3.1.2/extentreports-3.1.2.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl"
+DEBUG main freemarker.cache - Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG main freemarker.cache - TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found
+DEBUG main freemarker.cache - TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found
+DEBUG main freemarker.cache - Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sunco/.m2/repository/com/aventstack/extentreports/3.1.2/extentreports-3.1.2.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl"
+DEBUG main freemarker.cache - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+DEBUG main freemarker.cache - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+DEBUG main freemarker.cache - Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG main freemarker.cache - TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
+DEBUG main freemarker.cache - TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
+DEBUG main freemarker.cache - Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sunco/.m2/repository/com/aventstack/extentreports/3.1.2/extentreports-3.1.2.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl"
+DEBUG main freemarker.cache - Couldn't find template in cache for "author-view/author-view.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG main freemarker.cache - TemplateLoader.findTemplateSource("author-view/author-view_en.ftl"): Not found
+DEBUG main freemarker.cache - TemplateLoader.findTemplateSource("author-view/author-view.ftl"): Found
+DEBUG main freemarker.cache - Loading template for "author-view/author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sunco/.m2/repository/com/aventstack/extentreports/3.1.2/extentreports-3.1.2.jar!/com/aventstack/extentreports/view/html-report/author-view/author-view.ftl"
+DEBUG main freemarker.cache - Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG main freemarker.cache - TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
+DEBUG main freemarker.cache - TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
+DEBUG main freemarker.cache - Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sunco/.m2/repository/com/aventstack/extentreports/3.1.2/extentreports-3.1.2.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl"
+DEBUG main freemarker.cache - Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG main freemarker.cache - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
+DEBUG main freemarker.cache - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
+DEBUG main freemarker.cache - Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sunco/.m2/repository/com/aventstack/extentreports/3.1.2/extentreports-3.1.2.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl"
+DEBUG main freemarker.cache - Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG main freemarker.cache - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
+DEBUG main freemarker.cache - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
+DEBUG main freemarker.cache - Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sunco/.m2/repository/com/aventstack/extentreports/3.1.2/extentreports-3.1.2.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"
+INFO main HerokuAppTesting - Browser Opened With link
+INFO main HerokuAppTesting - Authentication Form clicked
+INFO main HerokuAppTesting - Email Entered
+INFO main HerokuAppTesting - Password Entered
+INFO main HerokuAppTesting - Login button clicked
+INFO main HerokuAppTesting - Login done successfully
+DEBUG main org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {s}->https://shakyadipen.atlassian.net:443
+DEBUG main org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to shakyadipen.atlassian.net:443
+DEBUG main org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+DEBUG main org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG main org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+DEBUG main org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+DEBUG main org.apache.http.impl.conn.DefaultClientConnection - Sending request: GET /rest/api/latest/search?jql=summary+%7E+%22successfulLogin+Failed+in+Automation+Testing%22 HTTP/1.1
+DEBUG main org.apache.http.wire -  >> "GET /rest/api/latest/search?jql=summary+%7E+%22successfulLogin+Failed+in+Automation+Testing%22 HTTP/1.1[\r][\n]"
+DEBUG main org.apache.http.wire -  >> "Accept: application/json[\r][\n]"
+DEBUG main org.apache.http.wire -  >> "Authorization: Basic c2hha3lhZGlwZW5AZ21haWwuY29tOkFUQVRUM3hGZkdGMGZRZkxac0FfTGpqYjZ3eTVrVzJfQkdzbTZGZ0p1Mi1pZnVnWGdTdkdVU3FZcW9Gd0R6VllWaXFUM3paS2thYXNOdm5TS2trQlZsUjJReXlqcnA0RHRYM29US1VCeVZLejNxWE9NVWl1RUdmODVjbmRWdHpWNFJoaDAxLXp6M0dBU1Q0YjU4WmpKeGJlV3VlNEdxV3Nja1Fzd2c5LU5SM25QM2I3NmNTZTl6ST1BMjgzRkNDRA==[\r][\n]"
+DEBUG main org.apache.http.wire -  >> "Host: shakyadipen.atlassian.net[\r][\n]"
+DEBUG main org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+DEBUG main org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/18.0.1.1)[\r][\n]"
+DEBUG main org.apache.http.wire -  >> "[\r][\n]"
+DEBUG main org.apache.http.headers - >> GET /rest/api/latest/search?jql=summary+%7E+%22successfulLogin+Failed+in+Automation+Testing%22 HTTP/1.1
+DEBUG main org.apache.http.headers - >> Accept: application/json
+DEBUG main org.apache.http.headers - >> Authorization: Basic c2hha3lhZGlwZW5AZ21haWwuY29tOkFUQVRUM3hGZkdGMGZRZkxac0FfTGpqYjZ3eTVrVzJfQkdzbTZGZ0p1Mi1pZnVnWGdTdkdVU3FZcW9Gd0R6VllWaXFUM3paS2thYXNOdm5TS2trQlZsUjJReXlqcnA0RHRYM29US1VCeVZLejNxWE9NVWl1RUdmODVjbmRWdHpWNFJoaDAxLXp6M0dBU1Q0YjU4WmpKeGJlV3VlNEdxV3Nja1Fzd2c5LU5SM25QM2I3NmNTZTl6ST1BMjgzRkNDRA==
+DEBUG main org.apache.http.headers - >> Host: shakyadipen.atlassian.net
+DEBUG main org.apache.http.headers - >> Connection: Keep-Alive
+DEBUG main org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.2 (Java/18.0.1.1)
+DEBUG main org.apache.http.wire -  << "HTTP/1.1 200 OK[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Date: Mon, 26 Feb 2024 08:56:17 GMT[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Server: AtlassianEdge[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Timing-Allow-Origin: *[\r][\n]"
+DEBUG main org.apache.http.wire -  << "X-Arequestid: 90e80191d4045b8a502a667a5e1b5533[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Set-Cookie: atlassian.xsrf.token=c5df251aaf28bc64851d6a4f89301c42be8d0882_lin; Path=/; SameSite=None; Secure[\r][\n]"
+DEBUG main org.apache.http.wire -  << "X-Aaccountid: 70121%3Afa834439-1937-41ad-b541-b58722cd6d7d[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Cache-Control: no-cache, no-store, no-transform[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Vary: Accept-Encoding[\r][\n]"
+DEBUG main org.apache.http.wire -  << "X-Content-Type-Options: nosniff[\r][\n]"
+DEBUG main org.apache.http.wire -  << "X-Xss-Protection: 1; mode=block[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Atl-Traceid: f91142806c35447f8b43f65dcc2202ec[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Strict-Transport-Security: max-age=63072000; includeSubDomains; preload[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Transfer-Encoding: chunked[\r][\n]"
+DEBUG main org.apache.http.wire -  << "[\r][\n]"
+DEBUG main org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+DEBUG main org.apache.http.headers - << HTTP/1.1 200 OK
+DEBUG main org.apache.http.headers - << Date: Mon, 26 Feb 2024 08:56:17 GMT
+DEBUG main org.apache.http.headers - << Content-Type: application/json;charset=UTF-8
+DEBUG main org.apache.http.headers - << Server: AtlassianEdge
+DEBUG main org.apache.http.headers - << Timing-Allow-Origin: *
+DEBUG main org.apache.http.headers - << X-Arequestid: 90e80191d4045b8a502a667a5e1b5533
+DEBUG main org.apache.http.headers - << Set-Cookie: atlassian.xsrf.token=c5df251aaf28bc64851d6a4f89301c42be8d0882_lin; Path=/; SameSite=None; Secure
+DEBUG main org.apache.http.headers - << X-Aaccountid: 70121%3Afa834439-1937-41ad-b541-b58722cd6d7d
+DEBUG main org.apache.http.headers - << Cache-Control: no-cache, no-store, no-transform
+DEBUG main org.apache.http.headers - << Vary: Accept-Encoding
+DEBUG main org.apache.http.headers - << X-Content-Type-Options: nosniff
+DEBUG main org.apache.http.headers - << X-Xss-Protection: 1; mode=block
+DEBUG main org.apache.http.headers - << Atl-Traceid: f91142806c35447f8b43f65dcc2202ec
+DEBUG main org.apache.http.headers - << Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+DEBUG main org.apache.http.headers - << Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+DEBUG main org.apache.http.headers - << Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+DEBUG main org.apache.http.headers - << Transfer-Encoding: chunked
+DEBUG main org.apache.http.client.protocol.ResponseProcessCookies - Cookie accepted [atlassian.xsrf.token="c5df251aaf28bc64851d6a4f89301c42be8d0882_lin", version:0, domain:shakyadipen.atlassian.net, path:/, expiry:null]
+DEBUG main org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+DEBUG main org.apache.http.wire -  << "33[\r][\n]"
+DEBUG main org.apache.http.wire -  << "{"startAt":0,"maxResults":50,"total":0,"issues":[]}"
+DEBUG main org.apache.http.wire -  << "[\r][\n]"
+DEBUG main org.apache.http.wire -  << "0[\r][\n]"
+DEBUG main org.apache.http.wire -  << "[\r][\n]"
+DEBUG main org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@e93f3d5
+DEBUG main org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+DEBUG main org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {s}->https://shakyadipen.atlassian.net:443
+DEBUG main org.apache.http.impl.client.DefaultHttpClient - Stale connection check
+DEBUG main org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+DEBUG main org.apache.http.client.protocol.RequestAddCookies - Cookie [version: 0][name: atlassian.xsrf.token][value: c5df251aaf28bc64851d6a4f89301c42be8d0882_lin][domain: shakyadipen.atlassian.net][path: /][expiry: null] match [(secure)shakyadipen.atlassian.net:443/rest/api/latest/issue/createmeta]
+DEBUG main org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG main org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+DEBUG main org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+DEBUG main org.apache.http.impl.conn.DefaultClientConnection - Sending request: GET /rest/api/latest/issue/createmeta?expand=projects.issuetypes.fields&issuetypeNames=Bug&projectKeys=EC HTTP/1.1
+DEBUG main org.apache.http.wire -  >> "GET /rest/api/latest/issue/createmeta?expand=projects.issuetypes.fields&issuetypeNames=Bug&projectKeys=EC HTTP/1.1[\r][\n]"
+DEBUG main org.apache.http.wire -  >> "Accept: application/json[\r][\n]"
+DEBUG main org.apache.http.wire -  >> "Authorization: Basic c2hha3lhZGlwZW5AZ21haWwuY29tOkFUQVRUM3hGZkdGMGZRZkxac0FfTGpqYjZ3eTVrVzJfQkdzbTZGZ0p1Mi1pZnVnWGdTdkdVU3FZcW9Gd0R6VllWaXFUM3paS2thYXNOdm5TS2trQlZsUjJReXlqcnA0RHRYM29US1VCeVZLejNxWE9NVWl1RUdmODVjbmRWdHpWNFJoaDAxLXp6M0dBU1Q0YjU4WmpKeGJlV3VlNEdxV3Nja1Fzd2c5LU5SM25QM2I3NmNTZTl6ST1BMjgzRkNDRA==[\r][\n]"
+DEBUG main org.apache.http.wire -  >> "Host: shakyadipen.atlassian.net[\r][\n]"
+DEBUG main org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+DEBUG main org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/18.0.1.1)[\r][\n]"
+DEBUG main org.apache.http.wire -  >> "Cookie: atlassian.xsrf.token=c5df251aaf28bc64851d6a4f89301c42be8d0882_lin[\r][\n]"
+DEBUG main org.apache.http.wire -  >> "[\r][\n]"
+DEBUG main org.apache.http.headers - >> GET /rest/api/latest/issue/createmeta?expand=projects.issuetypes.fields&issuetypeNames=Bug&projectKeys=EC HTTP/1.1
+DEBUG main org.apache.http.headers - >> Accept: application/json
+DEBUG main org.apache.http.headers - >> Authorization: Basic c2hha3lhZGlwZW5AZ21haWwuY29tOkFUQVRUM3hGZkdGMGZRZkxac0FfTGpqYjZ3eTVrVzJfQkdzbTZGZ0p1Mi1pZnVnWGdTdkdVU3FZcW9Gd0R6VllWaXFUM3paS2thYXNOdm5TS2trQlZsUjJReXlqcnA0RHRYM29US1VCeVZLejNxWE9NVWl1RUdmODVjbmRWdHpWNFJoaDAxLXp6M0dBU1Q0YjU4WmpKeGJlV3VlNEdxV3Nja1Fzd2c5LU5SM25QM2I3NmNTZTl6ST1BMjgzRkNDRA==
+DEBUG main org.apache.http.headers - >> Host: shakyadipen.atlassian.net
+DEBUG main org.apache.http.headers - >> Connection: Keep-Alive
+DEBUG main org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.2 (Java/18.0.1.1)
+DEBUG main org.apache.http.headers - >> Cookie: atlassian.xsrf.token=c5df251aaf28bc64851d6a4f89301c42be8d0882_lin
+DEBUG main org.apache.http.wire -  << "HTTP/1.1 200 OK[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Date: Mon, 26 Feb 2024 08:56:18 GMT[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Server: AtlassianEdge[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Timing-Allow-Origin: *[\r][\n]"
+DEBUG main org.apache.http.wire -  << "X-Arequestid: 2eb81be891d26967f8e7d3359fcc4346[\r][\n]"
+DEBUG main org.apache.http.wire -  << "X-Aaccountid: 70121%3Afa834439-1937-41ad-b541-b58722cd6d7d[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Cache-Control: no-cache, no-store, no-transform[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Vary: Accept-Encoding[\r][\n]"
+DEBUG main org.apache.http.wire -  << "X-Content-Type-Options: nosniff[\r][\n]"
+DEBUG main org.apache.http.wire -  << "X-Xss-Protection: 1; mode=block[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Atl-Traceid: a43a3ba3dddc4fe6b0f05ffb629eadd9[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Strict-Transport-Security: max-age=63072000; includeSubDomains; preload[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Transfer-Encoding: chunked[\r][\n]"
+DEBUG main org.apache.http.wire -  << "[\r][\n]"
+DEBUG main org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+DEBUG main org.apache.http.headers - << HTTP/1.1 200 OK
+DEBUG main org.apache.http.headers - << Date: Mon, 26 Feb 2024 08:56:18 GMT
+DEBUG main org.apache.http.headers - << Content-Type: application/json;charset=UTF-8
+DEBUG main org.apache.http.headers - << Server: AtlassianEdge
+DEBUG main org.apache.http.headers - << Timing-Allow-Origin: *
+DEBUG main org.apache.http.headers - << X-Arequestid: 2eb81be891d26967f8e7d3359fcc4346
+DEBUG main org.apache.http.headers - << X-Aaccountid: 70121%3Afa834439-1937-41ad-b541-b58722cd6d7d
+DEBUG main org.apache.http.headers - << Cache-Control: no-cache, no-store, no-transform
+DEBUG main org.apache.http.headers - << Vary: Accept-Encoding
+DEBUG main org.apache.http.headers - << X-Content-Type-Options: nosniff
+DEBUG main org.apache.http.headers - << X-Xss-Protection: 1; mode=block
+DEBUG main org.apache.http.headers - << Atl-Traceid: a43a3ba3dddc4fe6b0f05ffb629eadd9
+DEBUG main org.apache.http.headers - << Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+DEBUG main org.apache.http.headers - << Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+DEBUG main org.apache.http.headers - << Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+DEBUG main org.apache.http.headers - << Transfer-Encoding: chunked
+DEBUG main org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+DEBUG main org.apache.http.wire -  << "1686[\r][\n]"
+DEBUG main org.apache.http.wire -  << "{"expand":"projects","projects":[{"expand":"issuetypes","self":"https://shakyadipen.atlassian.net/rest/api/2/project/10001","id":"10001","key":"EC","name":"Ecommerce","avatarUrls":{"48x48":"https://shakyadipen.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10416","24x24":"https://shakyadipen.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10416?size=small","16x16":"https://shakyadipen.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10416?size=xsmall","32x32":"https://shakyadipen.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10416?size=medium"},"issuetypes":[{"self":"https://shakyadipen.atlassian.net/rest/api/2/issuetype/10007","id":"10007","description":"Bugs track problems or errors.","iconUrl":"https://shakyadipen.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10303?size=medium","name":"Bug","untranslatedName":"Bug","subtask":false,"scope":{"type":"PROJECT","project":{"id":"10001"}},"expand":"fields","fields":{"summary":{"required":true,"schema":{"type":"string","system":"summary"},"name":"Summary","key":"summary","hasDefaultValue":false,"operations":["set"]},"issuetype":{"required":true,"schema":{"type":"issuetype","system":"issuetype"},"name":"Issue Type","key":"issuetype","hasDefaultValue":false,"operations":[],"allowedValues":[{"self":"https://shakyadipen.atlassian.net/rest/api/2/issuetype/10007","id":"10007","description":"Bugs track problems or errors.","iconUrl":"https://shakyadipen.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10303?size=medium","name":"Bug","subtask":false,"avatarId":10303,"entityId":"17d07261-c53e-4e13-99de-6bebabbfbe1b","hierarchyLevel":0}]},"parent":{"required":false,"schema":{"type":"issuelink","system":"parent"},"name":"Parent","key":"parent","hasDefaultValue":false,"operations":["set"]},"customfield_10030":{"required":false,"schema":{"type":"any","custom":"com.atlassian.jira.plugins.jira-development-integration-plugin:designcf","customId":10030},"name":"Design","key":"customfield_10030","hasDefaultValue":false,"operations":["set"]},"description":{"required":false,"schema":{"type":"string","system":"description"},"name":"Description","key":"description","hasDefaultValue":false,"operations":["set"]},"customfield_10020":{"required":false,"schema":{"type":"array","items":"json","custom":"com.pyxis.greenhopper.jira:gh-sprint","customId":10020},"name":"Sprint","key":"customfield_10020","hasDefaultValue":false,"operations":["set"]},"project":{"required":true,"schema":{"type":"project","system":"project"},"name":"Project","key":"project","hasDefaultValue":false,"operations":["set"],"allowedValues":[{"self":"https://shakyadipen.atlassian.net/rest/api/2/project/10001","id":"10001","key":"EC","name":"Ecommerce","projectTypeKey":"software","simplified":true,"avatarUrls":{"48x48":"https://shakyadipen.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10416","24x24":"https://shakyadipen.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10416?size=small","16x16":"https://shakyadipen.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10416?size=xsmall","32x32":"https://shakyadipen.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10416?size=medium"}}]},"customfield_10021":{"required":false,"schema":{"type":"array","items":"option","custom":"com.atlassian.jira.plugin.system.customfieldtypes:multicheckboxes","customId":10021},"name":"Flagged","key":"customfield_10021","hasDefaultValue":false,"operations":["add","set","remove"],"allowedValues":[{"self":"https://shakyadipen.atlassian.net/rest/api/2/customFieldOption/10019","value":"Impediment","id":"10019"}]},"reporter":{"required":true,"schema":{"type":"user","system":"reporter"},"name":"Reporter","key":"reporter","autoCompleteUrl":"https://shakyadipen.atlassian.net/rest/api/2/user/search?query=","hasDefaultValue":true,"operations":["set"]},"customfield_10000":{"required":false,"schema":{"type":"any","custom":"com.atlassian.jira.plugins.jira-development-integration-plugin:devsummarycf","customId":10000},"name":"Development","key":"customfield_10000","hasDefaultValue":false,"operations":["set"]},"labels":{"required":false,"schema":{"type":"array","items":"string","system":"labels"},"name":"Labels","key":"labels","autoCompleteUrl":"https://shakyadipen.atlassian.net/rest/api/1.0/labels/suggest?query=","hasDefaultValue":false,"operations":["add","set","remove"]},"customfield_10016":{"required":false,"schema":{"type":"number","custom":"com.pyxis.greenhopper.jira:jsw-story-points","customId":10016},"name":"Story point estimate","key":"customfield_10016","hasDefaultValue":false,"operations":["set"]},"customfield_10019":{"required":false,"schema":{"type":"any","custom":"com.pyxis.greenhopper.jira:gh-lexo-rank","customId":10019},"name":"Rank","key":"customfield_10019","hasDefaultValue":false,"operations":["set"]},"attachment":{"required":false,"schema":{"type":"array","items":"attachment","system":"attachment"},"name":"Attachment","key":"attachment","hasDefaultValue":false,"operations":["set","copy"]},"issuelinks":{"required":false,"schema":{"type":"array","items":"issuelinks","system":"issuelinks"},"name":"Linked Issues","key":"issuelinks","autoCompleteUrl":"https://shakyadipen.atlassian.net/rest/api/2/issue/picker?currentProjectId=&showSubTaskParent=true&showSubTasks=true&currentIssueKey=null&query=","hasDefaultValue":false,"operations":["add","copy"]},"assignee":{"required":false,"schema":{"type":"user","system":"assignee"},"name":"Assignee","key":"assignee","autoCompleteUrl":"https://shakyadipen.atlassian.net/rest/api/2/user/assignable/search?project=EC&query=","hasDefaultValue":false,"operations":["set"]}}}]}]}"
+DEBUG main org.apache.http.wire -  << "[\r][\n]"
+DEBUG main org.apache.http.wire -  << "0[\r][\n]"
+DEBUG main org.apache.http.wire -  << "[\r][\n]"
+DEBUG main org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@7fedfe27
+DEBUG main org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+DEBUG main org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {s}->https://shakyadipen.atlassian.net:443
+DEBUG main org.apache.http.impl.client.DefaultHttpClient - Stale connection check
+DEBUG main org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+DEBUG main org.apache.http.client.protocol.RequestAddCookies - Cookie [version: 0][name: atlassian.xsrf.token][value: c5df251aaf28bc64851d6a4f89301c42be8d0882_lin][domain: shakyadipen.atlassian.net][path: /][expiry: null] match [(secure)shakyadipen.atlassian.net:443/rest/api/latest/issue/]
+DEBUG main org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG main org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+DEBUG main org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+DEBUG main org.apache.http.impl.conn.DefaultClientConnection - Sending request: POST /rest/api/latest/issue/ HTTP/1.1
+DEBUG main org.apache.http.wire -  >> "POST /rest/api/latest/issue/ HTTP/1.1[\r][\n]"
+DEBUG main org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
+DEBUG main org.apache.http.wire -  >> "Accept: application/json[\r][\n]"
+DEBUG main org.apache.http.wire -  >> "Authorization: Basic c2hha3lhZGlwZW5AZ21haWwuY29tOkFUQVRUM3hGZkdGMGZRZkxac0FfTGpqYjZ3eTVrVzJfQkdzbTZGZ0p1Mi1pZnVnWGdTdkdVU3FZcW9Gd0R6VllWaXFUM3paS2thYXNOdm5TS2trQlZsUjJReXlqcnA0RHRYM29US1VCeVZLejNxWE9NVWl1RUdmODVjbmRWdHpWNFJoaDAxLXp6M0dBU1Q0YjU4WmpKeGJlV3VlNEdxV3Nja1Fzd2c5LU5SM25QM2I3NmNTZTl6ST1BMjgzRkNDRA==[\r][\n]"
+DEBUG main org.apache.http.wire -  >> "Content-Length: 1610[\r][\n]"
+DEBUG main org.apache.http.wire -  >> "Host: shakyadipen.atlassian.net[\r][\n]"
+DEBUG main org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+DEBUG main org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/18.0.1.1)[\r][\n]"
+DEBUG main org.apache.http.wire -  >> "Cookie: atlassian.xsrf.token=c5df251aaf28bc64851d6a4f89301c42be8d0882_lin[\r][\n]"
+DEBUG main org.apache.http.wire -  >> "[\r][\n]"
+DEBUG main org.apache.http.headers - >> POST /rest/api/latest/issue/ HTTP/1.1
+DEBUG main org.apache.http.headers - >> Content-Type: application/json
+DEBUG main org.apache.http.headers - >> Accept: application/json
+DEBUG main org.apache.http.headers - >> Authorization: Basic c2hha3lhZGlwZW5AZ21haWwuY29tOkFUQVRUM3hGZkdGMGZRZkxac0FfTGpqYjZ3eTVrVzJfQkdzbTZGZ0p1Mi1pZnVnWGdTdkdVU3FZcW9Gd0R6VllWaXFUM3paS2thYXNOdm5TS2trQlZsUjJReXlqcnA0RHRYM29US1VCeVZLejNxWE9NVWl1RUdmODVjbmRWdHpWNFJoaDAxLXp6M0dBU1Q0YjU4WmpKeGJlV3VlNEdxV3Nja1Fzd2c5LU5SM25QM2I3NmNTZTl6ST1BMjgzRkNDRA==
+DEBUG main org.apache.http.headers - >> Content-Length: 1610
+DEBUG main org.apache.http.headers - >> Host: shakyadipen.atlassian.net
+DEBUG main org.apache.http.headers - >> Connection: Keep-Alive
+DEBUG main org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.2 (Java/18.0.1.1)
+DEBUG main org.apache.http.headers - >> Cookie: atlassian.xsrf.token=c5df251aaf28bc64851d6a4f89301c42be8d0882_lin
+DEBUG main org.apache.http.wire -  >> "{"fields":{"summary":"successfulLogin Failed in Automation Testing","issuetype":{"name":"Bug"},"project":{"key":"EC"},"description":"Failure Reason from Automation Testing\n\nno such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"a[href=\"/logout\"]\"}\n  (Session info: chrome=122.0.6261.69)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.17.0', revision: 'e52b1be057*'\nSystem info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [8a27f61d9b9cd2cf8f43f9f1ffae2509, findElement {value=a[href=\"/logout\"], using=xpath}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.69, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: D:\\Temp Data\\scoped_dir3844...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51341}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51341/devtoo..., se:cdpVersion: 122.0.6261.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 8a27f61d9b9cd2cf8f43f9f1ffae2509\n"}}"
+DEBUG main org.apache.http.wire -  << "HTTP/1.1 201 Created[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Date: Mon, 26 Feb 2024 08:56:19 GMT[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Server: AtlassianEdge[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Timing-Allow-Origin: *[\r][\n]"
+DEBUG main org.apache.http.wire -  << "X-Arequestid: 8d26a1791b6ba2a4453850296f73fb38[\r][\n]"
+DEBUG main org.apache.http.wire -  << "X-Aaccountid: 70121%3Afa834439-1937-41ad-b541-b58722cd6d7d[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Cache-Control: no-cache, no-store, no-transform[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Vary: Accept-Encoding[\r][\n]"
+DEBUG main org.apache.http.wire -  << "X-Content-Type-Options: nosniff[\r][\n]"
+DEBUG main org.apache.http.wire -  << "X-Xss-Protection: 1; mode=block[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Atl-Traceid: 3672fda8268e4814a1cc53cb907eb9e0[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Strict-Transport-Security: max-age=63072000; includeSubDomains; preload[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Transfer-Encoding: chunked[\r][\n]"
+DEBUG main org.apache.http.wire -  << "[\r][\n]"
+DEBUG main org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 201 Created
+DEBUG main org.apache.http.headers - << HTTP/1.1 201 Created
+DEBUG main org.apache.http.headers - << Date: Mon, 26 Feb 2024 08:56:19 GMT
+DEBUG main org.apache.http.headers - << Content-Type: application/json;charset=UTF-8
+DEBUG main org.apache.http.headers - << Server: AtlassianEdge
+DEBUG main org.apache.http.headers - << Timing-Allow-Origin: *
+DEBUG main org.apache.http.headers - << X-Arequestid: 8d26a1791b6ba2a4453850296f73fb38
+DEBUG main org.apache.http.headers - << X-Aaccountid: 70121%3Afa834439-1937-41ad-b541-b58722cd6d7d
+DEBUG main org.apache.http.headers - << Cache-Control: no-cache, no-store, no-transform
+DEBUG main org.apache.http.headers - << Vary: Accept-Encoding
+DEBUG main org.apache.http.headers - << X-Content-Type-Options: nosniff
+DEBUG main org.apache.http.headers - << X-Xss-Protection: 1; mode=block
+DEBUG main org.apache.http.headers - << Atl-Traceid: 3672fda8268e4814a1cc53cb907eb9e0
+DEBUG main org.apache.http.headers - << Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+DEBUG main org.apache.http.headers - << Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+DEBUG main org.apache.http.headers - << Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+DEBUG main org.apache.http.headers - << Transfer-Encoding: chunked
+DEBUG main org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+DEBUG main org.apache.http.wire -  << "63[\r][\n]"
+DEBUG main org.apache.http.wire -  << "{"id":"10016","key":"EC-17","self":"https://shakyadipen.atlassian.net/rest/api/latest/issue/10016"}"
+DEBUG main org.apache.http.wire -  << "[\r][\n]"
+DEBUG main org.apache.http.wire -  << "0[\r][\n]"
+DEBUG main org.apache.http.wire -  << "[\r][\n]"
+DEBUG main org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@783ec989
+DEBUG main org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+DEBUG main org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {s}->https://shakyadipen.atlassian.net:443
+DEBUG main org.apache.http.impl.client.DefaultHttpClient - Stale connection check
+DEBUG main org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+DEBUG main org.apache.http.client.protocol.RequestAddCookies - Cookie [version: 0][name: atlassian.xsrf.token][value: c5df251aaf28bc64851d6a4f89301c42be8d0882_lin][domain: shakyadipen.atlassian.net][path: /][expiry: null] match [(secure)shakyadipen.atlassian.net:443/rest/api/latest/issue/EC-17]
+DEBUG main org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG main org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+DEBUG main org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+DEBUG main org.apache.http.impl.conn.DefaultClientConnection - Sending request: GET /rest/api/latest/issue/EC-17 HTTP/1.1
+DEBUG main org.apache.http.wire -  >> "GET /rest/api/latest/issue/EC-17 HTTP/1.1[\r][\n]"
+DEBUG main org.apache.http.wire -  >> "Accept: application/json[\r][\n]"
+DEBUG main org.apache.http.wire -  >> "Authorization: Basic c2hha3lhZGlwZW5AZ21haWwuY29tOkFUQVRUM3hGZkdGMGZRZkxac0FfTGpqYjZ3eTVrVzJfQkdzbTZGZ0p1Mi1pZnVnWGdTdkdVU3FZcW9Gd0R6VllWaXFUM3paS2thYXNOdm5TS2trQlZsUjJReXlqcnA0RHRYM29US1VCeVZLejNxWE9NVWl1RUdmODVjbmRWdHpWNFJoaDAxLXp6M0dBU1Q0YjU4WmpKeGJlV3VlNEdxV3Nja1Fzd2c5LU5SM25QM2I3NmNTZTl6ST1BMjgzRkNDRA==[\r][\n]"
+DEBUG main org.apache.http.wire -  >> "Host: shakyadipen.atlassian.net[\r][\n]"
+DEBUG main org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+DEBUG main org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/18.0.1.1)[\r][\n]"
+DEBUG main org.apache.http.wire -  >> "Cookie: atlassian.xsrf.token=c5df251aaf28bc64851d6a4f89301c42be8d0882_lin[\r][\n]"
+DEBUG main org.apache.http.wire -  >> "[\r][\n]"
+DEBUG main org.apache.http.headers - >> GET /rest/api/latest/issue/EC-17 HTTP/1.1
+DEBUG main org.apache.http.headers - >> Accept: application/json
+DEBUG main org.apache.http.headers - >> Authorization: Basic c2hha3lhZGlwZW5AZ21haWwuY29tOkFUQVRUM3hGZkdGMGZRZkxac0FfTGpqYjZ3eTVrVzJfQkdzbTZGZ0p1Mi1pZnVnWGdTdkdVU3FZcW9Gd0R6VllWaXFUM3paS2thYXNOdm5TS2trQlZsUjJReXlqcnA0RHRYM29US1VCeVZLejNxWE9NVWl1RUdmODVjbmRWdHpWNFJoaDAxLXp6M0dBU1Q0YjU4WmpKeGJlV3VlNEdxV3Nja1Fzd2c5LU5SM25QM2I3NmNTZTl6ST1BMjgzRkNDRA==
+DEBUG main org.apache.http.headers - >> Host: shakyadipen.atlassian.net
+DEBUG main org.apache.http.headers - >> Connection: Keep-Alive
+DEBUG main org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.2 (Java/18.0.1.1)
+DEBUG main org.apache.http.headers - >> Cookie: atlassian.xsrf.token=c5df251aaf28bc64851d6a4f89301c42be8d0882_lin
+DEBUG main org.apache.http.wire -  << "HTTP/1.1 200 OK[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Date: Mon, 26 Feb 2024 08:56:19 GMT[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Server: AtlassianEdge[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Timing-Allow-Origin: *[\r][\n]"
+DEBUG main org.apache.http.wire -  << "X-Arequestid: b3e214aedc798728bb0d2c7f0566cf58[\r][\n]"
+DEBUG main org.apache.http.wire -  << "X-Aaccountid: 70121%3Afa834439-1937-41ad-b541-b58722cd6d7d[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Cache-Control: no-cache, no-store, no-transform[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Vary: Accept-Encoding[\r][\n]"
+DEBUG main org.apache.http.wire -  << "X-Content-Type-Options: nosniff[\r][\n]"
+DEBUG main org.apache.http.wire -  << "X-Xss-Protection: 1; mode=block[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Atl-Traceid: 896cbb7bb6364214956e34b4e600b264[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Strict-Transport-Security: max-age=63072000; includeSubDomains; preload[\r][\n]"
+DEBUG main org.apache.http.wire -  << "Transfer-Encoding: chunked[\r][\n]"
+DEBUG main org.apache.http.wire -  << "[\r][\n]"
+DEBUG main org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+DEBUG main org.apache.http.headers - << HTTP/1.1 200 OK
+DEBUG main org.apache.http.headers - << Date: Mon, 26 Feb 2024 08:56:19 GMT
+DEBUG main org.apache.http.headers - << Content-Type: application/json;charset=UTF-8
+DEBUG main org.apache.http.headers - << Server: AtlassianEdge
+DEBUG main org.apache.http.headers - << Timing-Allow-Origin: *
+DEBUG main org.apache.http.headers - << X-Arequestid: b3e214aedc798728bb0d2c7f0566cf58
+DEBUG main org.apache.http.headers - << X-Aaccountid: 70121%3Afa834439-1937-41ad-b541-b58722cd6d7d
+DEBUG main org.apache.http.headers - << Cache-Control: no-cache, no-store, no-transform
+DEBUG main org.apache.http.headers - << Vary: Accept-Encoding
+DEBUG main org.apache.http.headers - << X-Content-Type-Options: nosniff
+DEBUG main org.apache.http.headers - << X-Xss-Protection: 1; mode=block
+DEBUG main org.apache.http.headers - << Atl-Traceid: 896cbb7bb6364214956e34b4e600b264
+DEBUG main org.apache.http.headers - << Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+DEBUG main org.apache.http.headers - << Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+DEBUG main org.apache.http.headers - << Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+DEBUG main org.apache.http.headers - << Transfer-Encoding: chunked
+DEBUG main org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+DEBUG main org.apache.http.wire -  << "1c9e[\r][\n]"
+DEBUG main org.apache.http.wire -  << "{"expand":"renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations,customfield_10032.properties,customfield_10010.requestTypePractice","id":"10016","self":"https://shakyadipen.atlassian.net/rest/api/latest/issue/10016","key":"EC-17","fields":{"statuscategorychangedate":"2024-02-26T14:41:19.406+0545","issuetype":{"self":"https://shakyadipen.atlassian.net/rest/api/2/issuetype/10007","id":"10007","description":"Bugs track problems or errors.","iconUrl":"https://shakyadipen.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10303?size=medium","name":"Bug","subtask":false,"avatarId":10303,"entityId":"17d07261-c53e-4e13-99de-6bebabbfbe1b","hierarchyLevel":0},"timespent":null,"project":{"self":"https://shakyadipen.atlassian.net/rest/api/2/project/10001","id":"10001","key":"EC","name":"Ecommerce","projectTypeKey":"software","simplified":true,"avatarUrls":{"48x48":"https://shakyadipen.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10416","24x24":"https://shakyadipen.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10416?size=small","16x16":"https://shakyadipen.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10416?size=xsmall","32x32":"https://shakyadipen.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10416?size=medium"}},"customfield_10032":null,"fixVersions":[],"aggregatetimespent":null,"resolution":null,"customfield_10027":null,"customfield_10028":null,"customfield_10029":null,"resolutiondate":null,"workratio":-1,"watches":{"self":"https://shakyadipen.atlassian.net/rest/api/2/issue/EC-17/watchers","watchCount":1,"isWatching":true},"issuerestriction":{"issuerestrictions":{},"shouldDisplay":true},"lastViewed":null,"created":"2024-02-26T14:41:19.000+0545","customfield_10020":null,"customfield_10021":null,"customfield_10022":null,"customfield_10023":null,"priority":{"self":"https://shakyadipen.atlassian.net/rest/api/2/priority/3","iconUrl":"https://shakyadipen.atlassian.net/images/icons/priorities/medium.svg","name":"Medium","id":"3"},"customfield_10024":null,"customfield_10025":null,"labels":[],"customfield_10026":null,"customfield_10016":null,"customfield_10017":null,"customfield_10018":{"hasEpicLinkFieldDependency":false,"showField":false,"nonEditableReason":{"reason":"PLUGIN_LICENSE_ERROR","message":"The Parent Link is only available to Jira Premium users."}},"customfield_10019":"0|i0003j:","timeestimate":null,"aggregatetimeoriginalestimate":null,"versions":[],"issuelinks":[],"assignee":null,"updated":"2024-02-26T14:41:19.122+0545","status":{"self":"https://shakyadipen.atlassian.net/rest/api/2/status/10003","description":"","iconUrl":"https://shakyadipen.atlassian.net/","name":"To Do","id":"10003","statusCategory":{"self":"https://shakyadipen.atlassian.net/rest/api/2/statuscategory/2","id":2,"key":"new","colorName":"blue-gray","name":"To Do"}},"components":[],"timeoriginalestimate":null,"description":"Failure Reason from Automation Testing\n\nno such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"a[href=\"/logout\"]\"}\n  (Session info: chrome=122.0.6261.69)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.17.0', revision: 'e52b1be057*'\nSystem info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [8a27f61d9b9cd2cf8f43f9f1ffae2509, findElement {value=a[href=\"/logout\"], using=xpath}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.69, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: D:\\Temp Data\\scoped_dir3844...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51341}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51341/devtoo..., se:cdpVersion: 122.0.6261.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 8a27f61d9b9cd2cf8f43f9f1ffae2509\n","customfield_10010":null,"customfield_10014":null,"customfield_10015":null,"timetracking":{},"customfield_10005":null,"customfield_10006":null,"security":null,"customfield_10007":null,"customfield_10008":null,"attachment":[],"customfield_10009":null,"aggregatetimeestimate":null,"summary":"successfulLogin Failed in Automation Testing","creator":{"self":"https://shakyadipen.atlassian.net/rest/api/2/user?accountId=70121%3Afa834439-1937-41ad-b541-b58722cd6d7d","accountId":"70121:fa834439-1937-41ad-b541-b58722cd6d7d","emailAddress":"shakyadipen@gmail.com","avatarUrls":{"48x48":"https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/70121:fa834439-1937-41ad-b541-b58722cd6d7d/a48ff798-47fc-424b-ab30-ce07bc19078b/48","24x24":"https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/70121:fa834439-1937-41ad-b541-b58722cd6d7d/a48ff798-47fc-424b-ab30-ce07bc19078b/24","16x16":"https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/70121:fa834439-1937-41ad-b541-b58722cd6d7d/a48ff798-47fc-424b-ab30-ce07bc19078b/16","32x32":"https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/70121:fa834439-1937-41ad-b541-b58722cd6d7d/a48ff798-47fc-424b-ab30-ce07bc19078b/32"},"displayName":"fortunate_shakya","active":true,"timeZone":"Asia/Kathmandu","accountType":"atlassian"},"subtasks":[],"reporter":{"self":"https://shakyadipen.atlassian.net/rest/api/2/user?accountId=70121%3Afa834439-1937-41ad-b541-b58722cd6d7d","accountId":"70121:fa834439-1937-41ad-b541-b58722cd6d7d","emailAddress":"shakyadipen@gmail.com","avatarUrls":{"48x48":"https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/70121:fa834439-1937-41ad-b541-b58722cd6d7d/a48ff798-47fc-424b-ab30-ce07bc19078b/48","24x24":"https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/70121:fa834439-1937-41ad-b541-b58722cd6d7d/a48ff798-47fc-424b-ab30-ce07bc19078b/24","16x16":"https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/70121:fa834439-1937-41ad-b541-b58722cd6d7d/a48ff798-47fc-424b-ab30-ce07bc19078b/16","32x32":"https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/70121:fa834439-1937-41ad-b541-b58722cd6d7d/a48ff798-47fc-424b-ab30-ce07bc19078b/32"},"displayName":"fortunate_shakya","active":true,"timeZone":"Asia/Kathmandu","accountType":"atlassian"},"aggregateprogress":{"progress":0,"total":0},"customfield_10000":"{}","customfield_10001":null,"customfield_10002":null,"customfield_10003":null,"customfield_10004":null,"environment":null,"duedate":null,"progress":{"progress":0,"total":0},"comment":{"comments":[],"self":"https://shakyadipen.atlassian.net/rest/api/2/issue/10016/comment","maxResults":0,"total":0,"startAt":0},"votes":{"self":"https://shakyadipen.atlassian.net/rest/api/2/issue/EC-17/votes","votes":0,"hasVoted":false},"worklog":{"startAt":0,"maxResults":20,"total":0,"worklogs":[]}}}"
+DEBUG main org.apache.http.wire -  << "[\r][\n]"
+DEBUG main org.apache.http.wire -  << "0[\r][\n]"
+DEBUG main org.apache.http.wire -  << "[\r][\n]"
+DEBUG main org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@1ddd3478
+DEBUG main org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+INFO main HerokuAppTesting - Browser closed
+INFO main HerokuAppTesting - Browser Opened With link
+INFO main HerokuAppTesting - Alert Link CLicked
+INFO main HerokuAppTesting - Assertion to check the Alerttext
+INFO main HerokuAppTesting - Accept the alert window
+INFO main HerokuAppTesting - Browser closed
+DEBUG main freemarker.cache - Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG main freemarker.cache - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+DEBUG main freemarker.cache - TemplateLoader.findTemplateSource("index.ftl"): Found
+DEBUG main freemarker.cache - Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sunco/.m2/repository/com/aventstack/extentreports/3.1.2/extentreports-3.1.2.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
+DEBUG Finalizer org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:51367<->13.200.41.130:443 closed
+DEBUG main freemarker.cache - Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG main freemarker.cache - TemplateLoader.findTemplateSource("head_en.ftl"): Not found
+DEBUG main freemarker.cache - TemplateLoader.findTemplateSource("head.ftl"): Found
+DEBUG main freemarker.cache - Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sunco/.m2/repository/com/aventstack/extentreports/3.1.2/extentreports-3.1.2.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
+DEBUG main freemarker.cache - Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG main freemarker.cache - TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
+DEBUG main freemarker.cache - TemplateLoader.findTemplateSource("nav.ftl"): Found
+DEBUG main freemarker.cache - Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sunco/.m2/repository/com/aventstack/extentreports/3.1.2/extentreports-3.1.2.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
+DEBUG main freemarker.cache - Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG main freemarker.cache - TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
+DEBUG main freemarker.cache - TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
+DEBUG main freemarker.cache - Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sunco/.m2/repository/com/aventstack/extentreports/3.1.2/extentreports-3.1.2.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
+DEBUG main freemarker.cache - Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG main freemarker.cache - TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
+DEBUG main freemarker.cache - TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
+DEBUG main freemarker.cache - Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sunco/.m2/repository/com/aventstack/extentreports/3.1.2/extentreports-3.1.2.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl"
+DEBUG main freemarker.cache - Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG main freemarker.cache - TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found
+DEBUG main freemarker.cache - TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found
+DEBUG main freemarker.cache - Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sunco/.m2/repository/com/aventstack/extentreports/3.1.2/extentreports-3.1.2.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl"
